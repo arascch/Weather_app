@@ -25,4 +25,5 @@ def _import_parsers(parsersfiles):
 
 def load(dirname):
     parsersfiles = _get_parser_list(dirname)
-    return _import_parsers(parsersfiles)
+    return _import_parsers(parsersfiles
+    )
