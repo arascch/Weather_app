@@ -3,7 +3,7 @@ from datetime import date
 from .forecast_type import ForecastType
 
 class Forecast:
-    def __init__(self , current_temp , humidity , wind , high_temp = none , low_temp = none , description = '' , forecast_date = none , forecast_type = ForecastType.TODAY):
+    def __init__(self , current_temp , humidity , wind , high_temp = None , low_temp = None , description = '' , forecast_date = None , forecast_type = ForecastType.TODAY):
         self._current_temp = current_temp
         self._high_temp = high_temp
         self._low_temp = low_temp
